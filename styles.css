@@ -1,0 +1,332 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+body {
+
+    margin: 0;
+    font-family: 'Share Tech', sans-serif;
+    background-image: url(img/background.png);
+
+}
+
+.navbar {
+
+    display: flex;
+    width: 100%;
+    background-color: rgba(205, 205, 205, 0.36);
+    backdrop-filter: blur(4px);
+    align-items: center;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
+    left: 0;
+    width: 100%
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 2rem;
+    padding: 0 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+nav ul li:after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after{
+    width:100%;
+}
+
+.navbar_logo {
+
+    height: 75px;
+    width: 120px;
+    margin-left: 20px;
+
+}
+
+.program_languages_buttons {
+
+    margin-left: 45%;
+
+}
+
+.navbar_button {
+
+    text-decoration: none;
+    border: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+footer {
+
+    background-color: rgba(205, 205, 205, 0.36);
+    backdrop-filter: blur(4px);
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer_logo {
+
+    height: 187.5px;
+    width: 300px;
+
+}
+
+.footer_social_media_logo1 {
+
+    height: 80px;
+    width: 80px;
+
+}
+
+.footer_social_media_logo2 {
+
+    height: 90px;
+    width: 90px;
+
+}
+
+.footer_social_media_logo3 {
+
+    height: 90px;
+    width: 90px;
+
+}
+
+.social_media {
+
+    margin-left: 3%;
+
+}
+
+.social_media_all {
+
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+.footer #E-mail, #Comment {
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid rgb(80, 80, 80);
+    border-radius: 5px;
+    padding: 5px;
+    opacity: 80%;
+    margin: 5px 0px 10px;
+    height: 35px;
+  }
+  
+.Contact_us {
+
+    width: 50%;
+    border-right: 3px solid black;
+    display: flex;
+    align-items: center;
+
+}
+
+.form {
+
+    margin-left: 5%;
+
+}
+
+.Contact_us input {
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid rgb(80, 80, 80);
+    border-radius: 7px;
+    padding: 6px;
+    font-size: 17px;
+    opacity: 80%;
+    transition: all, 0.15s;
+    margin-right: 10px;
+}
+  
+.Contact_us input:hover {
+    opacity: 100%;
+    color: rgb(0, 0, 88);
+    transition: all, 0.3s;
+}
+
+.Why_to_learn_programming {
+
+    margin-top: 100px;
+
+}
+
+.Why_to_learn_left_title {
+
+    width: 100%;
+    font-size: 60px;
+    align-items: left;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+
+.Why_to_learn_programming_video_text {
+
+    display: flex;
+    font-size: 45px;
+
+}
+
+.Why_to_learn_programming_video {
+
+    align-items: right;
+    margin-top: 20px;
+    margin-left: 6%;
+
+}
+
+.Why_to_learn_programming_text {
+
+    height: 540px;
+    width: 500px;
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+.P {
+
+    height: 500px;
+    width: 450px;
+
+}
+
+.line {
+
+    background-color: black;
+    height: 3px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.line1 {
+
+    background-color: black;
+    height: 3px;
+    margin-top: 70px;
+    width: 100%;
+
+}
+
+.The_difference_between_Programming_and_coding_title {
+
+    width: 100%;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 25%;
+
+}
+
+.The_difference_between_Programming_and_coding_video_and_text {
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.The_difference_between_Programming_and_coding_video {
+
+    margin-left: 2%;
+
+}
+
+.The_difference_between_Programming_and_coding_text {
+
+    text-align: center;
+    display: flex;
+    width: 50%;
+    padding-left: 9%;
+
+}
+
+.P1 {
+
+    height: 500px;
+    width: 450px;
+    font-size: 45px;
+
+}
+
+.program_language_text {
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
+}
+
+.Why_to_learn_CSharp {
+
+    margin-top: 100px;
+
+}
+
+.video_logo_img {
+
+    height: 600px;
+    width: 600px;
+
+}
+
+.video {
+
+    display: flex;
+
+}
+
+.video_video {
+
+    margin-top: 30px;
+
+}
+
+.video_logo_img_python {
+
+    height: 600px;
+    width: 600px;
+
+}
+
+.video_logo_img_php {
+
+    width: 600px;
+    height: 400px;
+
+}
+
+
+
